@@ -3,9 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "demo.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "node demo.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DheerajGk123/dempproxy-01.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DheerajGk123/dempproxy-01/issues"
+  },
+  "homepage": "https://github.com/DheerajGk123/dempproxy-01#readme"
 }
