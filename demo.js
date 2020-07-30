@@ -9,9 +9,7 @@ const dirPath = path.join(__dirname)
 console.log(dirPath)
 
 
-app.use(express.static(dirPath),
-
-)
+app.use(express.static(dirPath))
 
 
 //------------------------General Scripts Basic Tage ------------------------------
